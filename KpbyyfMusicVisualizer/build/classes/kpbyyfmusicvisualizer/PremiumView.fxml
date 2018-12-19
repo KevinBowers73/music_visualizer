@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="800.0" style="-fx-background-color: #555555;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kpbyyfmusicvisualizer.PremiumViewController">
+   <children>
+      <Text fill="#54cd91" layoutX="54.0" layoutY="238.0" onMouseClicked="#congratsClick" strokeType="OUTSIDE" strokeWidth="0.0" text="It appears that you have a premium account... Congratulations!" textAlignment="CENTER" wrappingWidth="691.9375">
+         <font>
+            <Font name="Bangla MN Bold" size="42.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

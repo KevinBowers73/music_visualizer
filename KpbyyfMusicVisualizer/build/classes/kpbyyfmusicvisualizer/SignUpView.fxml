@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kpbyyfmusicvisualizer.SignUpViewController">
+   <children>
+      <CheckBox fx:id="premiumCheckBox" alignment="CENTER" layoutX="241.0" layoutY="162.0" mnemonicParsing="false" onAction="#premiumCheck" text="I want premium" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Label alignment="CENTER" layoutX="179.0" layoutY="37.0" text="Welcome! Create a new account below!" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <TextField fx:id="newUsernameTextField" layoutX="332.0" layoutY="93.0" promptText="New Username" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="317.0" />
+      <PasswordField fx:id="newPasswordField" layoutX="315.0" layoutY="214.0" promptText="New Password" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="317.0" />
+      <PasswordField fx:id="confirmPasswordField" layoutX="316.0" layoutY="260.0" promptText="Confirm Password" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="317.0" />
+      <Label alignment="CENTER" layoutX="269.0" layoutY="72.0" text="Username" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Label fx:id="passwordLabel" alignment="CENTER" layoutX="271.0" layoutY="192.0" text="Password" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Button fx:id="createAccountButton" layoutX="299.0" layoutY="334.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="58.0" prefWidth="202.0" text="Create Account" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="299.0" />
+      <Label fx:id="usernameTakenLabel" alignment="CENTER" layoutX="211.0" layoutY="133.0" text="Username taken. Try Another" textFill="RED" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Label fx:id="passwordErrorLabel" alignment="CENTER" layoutX="193.0" layoutY="305.0" text="" textFill="RED" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Text fx:id="goBackText" fill="#0000ff" layoutX="43.0" layoutY="50.0" onMousePressed="#goBack" strokeType="OUTSIDE" strokeWidth="0.0" text="Go Back" underline="true" />
+   </children>
+</AnchorPane>

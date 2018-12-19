@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kpbyyfmusicvisualizer.StartPageController">
+   <children>
+      <CheckBox fx:id="premiumCheckBox" layoutX="310.0" layoutY="211.0" mnemonicParsing="false" onAction="#premiumCheck" text="I have a premium account" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="308.0" />
+      <Button fx:id="signInButton" layoutX="342.0" layoutY="307.0" mnemonicParsing="false" onAction="#signIn" prefHeight="45.0" prefWidth="117.0" text="Sign In" AnchorPane.leftAnchor="342.0" AnchorPane.rightAnchor="342.0" />
+      <TextField fx:id="usernameTextField" layoutX="317.0" layoutY="164.0" promptText="Username" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="317.0" />
+      <PasswordField fx:id="passwordTextField" layoutX="317.0" layoutY="252.0" promptText="Password" visible="false" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="317.0" />
+      <Separator layoutX="196.0" layoutY="373.0" prefHeight="18.0" prefWidth="408.0" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="196.0" />
+      <Label layoutX="328.0" layoutY="426.0" text="Don't have an account?" AnchorPane.leftAnchor="328.0" AnchorPane.rightAnchor="328.0" />
+      <Button fx:id="signUpButton" layoutX="342.0" layoutY="468.0" mnemonicParsing="false" onAction="#signUp" prefHeight="27.0" prefWidth="116.0" text="SIGN UP!" AnchorPane.leftAnchor="342.0" AnchorPane.rightAnchor="342.0" />
+      <Text layoutX="169.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome! Login or sign up to get started">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="invalidLoginText" fill="RED" layoutX="472.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid Login" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="BLUE" layoutX="694.0" layoutY="584.0" onMouseClicked="#goToAboutPage" strokeType="OUTSIDE" strokeWidth="0.0" text="About Page" underline="true" />
+   </children>
+</AnchorPane>
